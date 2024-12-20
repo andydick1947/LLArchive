@@ -1,0 +1,60 @@
+body{
+  box-sizing: border-box;
+  background-color:skyblue;
+}
+
+.resbar{
+  background: black;
+  overflow: hidden;
+  width:100%;
+  position:fixed;
+  top:0;
+  left:0;
+}
+.resbar a{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.resbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+.resbar a.active {
+  background-color: #04AA6D;
+}
+h2{
+  color: black;
+  text-align:center;
+}
+.butn{
+  background-color:blue;
+  color:white;
+  border: solid 5px skyblue;
+  border-radius: 15px;
+  width:210px;
+  height: 50px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top:2px;
+}
+.butn:hover{
+  background-color:black;
+}
+#div-container {
+  display: flex;
+  align-self: auto;
+  justify-content:center;
+  align-items: center;
+  width: 90%;
+  margin-left:4%;
+  margin-right:6%;
+  margin-top:0%;
+  background-color: skyblue;
+  flex-wrap: wrap;
+
+}
+
