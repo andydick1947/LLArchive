@@ -102,8 +102,7 @@ for (pp=1;pp<=12;pp++){
   runtot[0]=1;
   runtot[pp]=runtot[pp-1]+wpm[pp-1];
 }
-console.log(wpm);
-console.log(runtot);
+
 function AprilStart(){
 runtot[0]=wpm[0];
 runtot[1]=wpm[1];
