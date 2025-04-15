@@ -40,7 +40,7 @@ h1{
   font-size: 15px;
   font-weight: bold;
   margin-top:2px;
-  margin-right:2px;
+  margin-right:4px;
 }
 .butn:hover{
   background-color:black;
@@ -54,7 +54,7 @@ h1{
   font-size: 15px;
   font-weight: bold;
   margin-top:2px;
-  margin-right:2px;
+  margin-right:4px;
 }
 .btn:hover{
   background-color:black;
@@ -66,27 +66,27 @@ h1{
   align-items: center;
   width: 90%;
   margin-left:4%;
-  margin-top:6%;
+  margin-right:6%;
+  margin-top:0px;
   background-color: skyblue;
   flex-wrap: wrap;
 
 }
-@media only screen and (min-width: 100px) and (max-width: 700px){
+
+
+@media only screen and (min-width: 300px) and (max-width: 1000px){
   .btn{
-     width: 21%;
-     font-size:12px;
-    }
-    .my-grid{
-      margin-top:10%;
-     }
+   width: 33%;
+   
+  }
 }
 
-@media only screen and (min-width: 700px) and (max-width: 1000px){
-    .btn{
-     width: 50%;
-     font-size:15px;
+@media only screen and (min-width: 20px) and (max-width: 300px){
+  .btn{
+     width: 80%;
+     font-size: 12px;
+  
+
+
     }
-    .my-grid{
-      margin-top:6%;
-     }
 }
